@@ -17,12 +17,11 @@ export class Cuadrado {
     }
 
     calcularArea() {
-        console.log(`AREA: ${this.lado * this.lado}`)
-
+        return this.lado * this.lado;
     }
 
     calcularPerimetro() {
-        console.log(`PERÍMETRO: ${this.lado * 4}`)
+        return this.lado * 4;
     }
 }
 
